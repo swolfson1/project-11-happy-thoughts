@@ -1,0 +1,46 @@
+.happyThought {
+  border:2px solid #d14040;
+  box-shadow: 5px 5px #f5c8b4;
+background:white;
+  width: 300px;
+  height: 130px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h3{
+  font-family: "Courier", monospace;
+}
+
+.happyThought p{
+  font-family: "Courier", monospace;
+
+}
+
+.heart {
+ width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    margin: 0;
+    background-color: #ffadad;
+    font-size: 15px;
+  
+}
+
+.moments p{
+ float: right;
+  
+}
+
+.message{
+  width: 100%;
+  height: 130px;
+    text-align: center;
+ overflow-y: scroll;
+
+    
+}

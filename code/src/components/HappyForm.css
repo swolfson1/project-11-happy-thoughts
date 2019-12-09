@@ -1,0 +1,57 @@
+Form {
+  background-color:#fbefea;
+  border:2px solid #d14040;
+  box-shadow: 5px 5px #f5c8b4;
+  width: 300px;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ h2{
+  margin: 0%;
+  padding: 20px;
+  text-align: center;
+}
+
+.HappyForm textarea {
+  width: 100%;
+  padding: 30px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  
+}
+
+textarea{
+border:1px solid #f5c8b4;
+}
+
+.formBtn {
+  margin-top: 20px;
+  height: 50px;
+  width: 70%;
+  background-color: #ffadad;
+  border: none;
+  font-size: 14px;
+  border-radius: 25px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.formBtn p{
+  color: #fbefea;
+}
+
+.formFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.length{
+  margin-top: 30px;
+}
