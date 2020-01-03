@@ -2,7 +2,6 @@
 
 the objective was to use React to build a Twitter-like app to fetch and post data to an API.
 
-https://nyblad-happy-thoughts.netlify.com/
 
 ## Learning objectives
 * How to use APIs in React, firing requests within useEffect
