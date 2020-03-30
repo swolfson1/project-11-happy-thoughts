@@ -21,4 +21,6 @@ link to backend: https://github.com/swolfson1/project-happy-thoughts-api
 
 ##
  deployed frontend site:https://swolfson-happy-thought.netlify.com
+ 
+ 
  deployed backend site: https://swolfson-happy.herokuapp.com/
