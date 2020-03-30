@@ -2,14 +2,13 @@ import React, { useEffect, useState } from "react";
 import { HappyThought } from "./components/HappyThought";
 import { HappyForm } from "./components/HappyForm";
 
-const url = "https://technigo-thoughts.herokuapp.com/";
+const url = "https://swolfson-happy.herokuapp.com/thoughts";
 
 // new thought & postmessage
 export const App = () => {
   const [thoughts, setThoughts] = useState([]);
   const [postedMessage, setPostedMessage] = useState("");
 
-  // Fetching and listing the json in  the setThoughts
   useEffect(() => {
     fetch(url)
       .then(res => res.json())
@@ -32,7 +31,7 @@ export const App = () => {
     const updateThought = () =>
       thoughts.map(thought => {
         if (thought._id === thoughtId) {
-          thought.hearts += 1;
+          thought.heart += 1;
         }
         return thought;
       });
