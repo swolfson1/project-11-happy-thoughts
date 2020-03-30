@@ -1,7 +1,8 @@
 # Project 11 Happy Thoughts
 
-the objective was to use React to build a Twitter-like app to fetch and post data to an API.
+the objective was to use React to build a Twitter-like app to fetch and post data to my own api which fetches recent posts. You are also able to "like" a post.
 
+link to backend: https://github.com/swolfson1/project-happy-thoughts-api
 
 ## Learning objectives
 * How to use APIs in React, firing requests within useEffect
@@ -19,4 +20,5 @@ the objective was to use React to build a Twitter-like app to fetch and post dat
 * Moment.js
 
 ##
-deployed site:https://swolfson-happy-thought.netlify.com
+deployed frontend site:https://swolfson-happy-thought.netlify.com
+deployed backend site: https://swolfson-happy.herokuapp.com/
